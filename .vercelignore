@@ -1,0 +1,19 @@
+# Working files the live site doesn't use. Keeps the upload small
+# (eden/video.mp4 alone is over 500 MB).
+.claude
+Figma
+gallery
+All in One
+AR HCI
+Sumato ERP
+eden
+muq
+dashboard.html
+preview.png
+Application_Photo-removebg-preview.png
+index/hero
+index/travel/*.HEIC
+index/travel/*.mov
+index/travel/*.jpg
+index/travel/*.JPG
+about/photo5.jpeg

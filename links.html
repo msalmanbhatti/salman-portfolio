@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Salman Bhatti — UX/UI Designer based in Germany. Portfolio of enterprise product design, systems, and end-to-end user experience work."/>
+<title>Salman Bhatti Portfolio</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- ══ NAVBAR ══ -->
+<div class="nav-wrap">
+<nav id="main-nav">
+
+  <!-- Name -->
+  <a href="index.html#hero" class="sb-nav-brand">salman</a>
+
+  <div class="sb-nav-group">
+
+    <!-- Links -->
+    <ul class="sb-nav-links">
+      <li><a href="index.html#projects"><span>work</span></a></li>
+      <li><a href="links.html"><span>links</span></a></li>
+    </ul>
+
+    <!-- Dark mode toggle -->
+    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+
+  </div>
+</nav>
+</div>
+
+<main class="links-main">
+  <div class="links-content">
+    <h1 class="links-heading">links</h1>
+
+    <ul class="links-list">
+      <li><a href="index.html">portfolio <span class="arrow">&rarr;</span></a></li>
+      <li><a href="https://www.linkedin.com/in/m-salman-bhatti" target="_blank" rel="noopener noreferrer">linkedin <span class="arrow">&rarr;</span></a></li>
+      <li><a href="https://www.instagram.com/salmancapturedthis/" target="_blank" rel="noopener noreferrer">instagram <span class="arrow">&rarr;</span></a></li>
+      <li><a href="mailto:salman.ashraff20@gmail.com" id="linksEmailCopy">email <span class="arrow" id="linksEmailArrow">&rarr;</span></a></li>
+    </ul>
+  </div>
+
+  <div class="links-showcase">
+    <div class="profile-card">
+      <div class="scene">
+
+        <!-- "Press here" annotation pointing at the clip -->
+        <div class="press-note">
+          <span class="press-text">press here</span>
+          <svg class="press-arrow" width="76" height="58" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M82 6 C55 10 25 22 14 52" stroke="var(--pc-blue)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+            <path d="M8 40 L14 54 L28 50" stroke="var(--pc-blue)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+
+        <!-- Binder clip -->
+        <svg class="clip" width="124" height="99" viewBox="0 0 150 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M75 4 C60 4 52 14 56 26 L66 52" stroke="#9a9a9a" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <path d="M75 4 C90 4 98 14 94 26 L84 52" stroke="#b9b9b9" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <path d="M38 52 L112 52 L124 100 L26 100 Z" fill="#111111"/>
+          <path d="M38 52 L112 52 L118 76 L32 76 Z" fill="#1e1e1e"/>
+          <rect x="44" y="58" width="10" height="34" rx="4" fill="#333" opacity="0.6"/>
+        </svg>
+
+        <!-- Fan-out cards (hidden behind until the clip is pressed) -->
+        <div class="fan" aria-hidden="true">
+          <div class="fan-card fc1"><img src="about/photo2.jpeg" alt="photo1" /></div>
+          <div class="fan-card fc2"><img src="about/photo3.jpeg" alt="photo2" /></div>
+          <div class="fan-card fc3"><img src="about/photo4.jpeg" alt="photo3" /></div>
+          <div class="fan-card fc4"><img src="about/photo6.jpeg" alt="photo4" /></div>
+        </div>
+
+        <!-- Yellow card behind -->
+        <div class="yellow-card"></div>
+
+        <!-- Main white card -->
+        <div class="card">
+          <img class="photo" src="about/photo1.jpeg" alt="Salman Bhatti" />
+          <h1 class="headline">
+            The designer who turns messy ideas into clean interfaces<br />
+            <span class="accent">and ships them fast</span>
+          </h1>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Photo lightbox: opens when a profile-card photo is clicked -->
+<div class="photo-lightbox" id="photoLightbox">
+  <button type="button" class="photo-lightbox-close" id="photoLightboxClose" aria-label="Close photo">&times;</button>
+  <img id="photoLightboxImg" src="" alt="" />
+</div>
+
+<footer class="site-footer" id="siteFooter">
+
+  <div class="footer-main">
+    <div>
+      <p class="footer-headline">
+        have a great <em id="footerCyclingWord">concept</em> in mind?<br>let's make it real
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-links">
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html#projects">work</a>
+      <a href="links.html">links</a>
+    </nav>
+
+    <div class="socials">
+      <a href="https://www.instagram.com/salmancapturedthis/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/m-salman-bhatti" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="mailto:salman.ashraff20@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 salman bhatti</span>
+    <span id="footerLocalTime"></span>
+  </div>
+
+</footer>
+
+<!-- Scroll to top -->
+<button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Vercel CLI link (account-specific)
+.vercel
+
+# Claude project settings
+.claude
+
+# Local environment files
+.env*
+
+# Working files the site does not use
+gallery/
+
+# OS clutter
+Thumbs.db
+.DS_Store
