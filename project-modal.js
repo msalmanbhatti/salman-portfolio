@@ -206,6 +206,7 @@
       num: '05',
       eyebrow: 'IoT · Dashboard UI · Evaluation',
       title: 'EDEN: A Smart Dual-Zone Terrarium',
+      live: ['https://eden-terrarium.vercel.app/', 'Try the live demo'],
       lede: 'An autonomous terrarium that monitors and cares for two plant zones with different needs, and tells its owner how the plants are doing at a glance.',
       meta: [
         ['Role', 'Dashboard UI design, evaluation lead, documentation and demo'],
