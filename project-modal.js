@@ -45,12 +45,12 @@
         ['Role', 'App designer'],
         ['Context', 'University collaboration with the muq. founders, Saarbrücken'],
         ['Timeline', 'Apr – Jun 2026'],
-        ['Tools', 'Figma, Kotlin, Arduino Nano IoT, BLE']
+        ['Tools', 'Figma, Figma MCP, Claude Code, Android, BLE']
       ],
       hero: ['muq_render.jpg', 'Render of the muq. smart mug', '<b>The muq. device.</b> A portable coffee system with a temperature sensor and heating element, controlled over Bluetooth from the app. Product and render by the muq. founders.'],
       story: [
         ['Problem', 'Coffee goes cold before you finish it, and existing heated mugs are either expensive or don’t connect to the phone people already carry.'],
-        ['What I did', 'In a 4-person student team, I designed the companion Android app from wireframes to final UI, and used Figma MCP + Claude Code to speed up handoff into the Kotlin build.'],
+        ['What I did', 'In a 4-person student team, I designed the companion Android app from wireframes to final UI, and used Figma MCP + Claude Code to speed up handoff into the Android build.'],
         ['Result', 'A working prototype (mug, firmware and app) that the team tested for sensing accuracy and BLE stability and presented live to an audience.']
       ],
       impact: [['4', 'team members across hardware, software and design'], ['5', 'core app screens designed end-to-end'], ['1', 'working prototype presented live']],
